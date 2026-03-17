@@ -6,8 +6,8 @@ const nextConfig = {
   env: {
     name: 'Dispersive Kasm Registry',
     description: 'The official store for Dispersive Kasm workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://dispersive-dev-ki.github.io/kasm-registry',
+    icon: 'https://dispersive.io/hs-fs/hubfs/Dispersive-Theme-2025/Global%20Assets/Images/Disersive-Logo_Header.png?width=240&height=50&name=Disersive-Logo_Header.png',
+    listUrl: 'https://dispersive-dev-ki.github.io/kasm-registry/',
     contactUrl: 'https://github.com/dispersive-dev-ki/kasm-registry/issues',
   },
   reactStrictMode: true,
