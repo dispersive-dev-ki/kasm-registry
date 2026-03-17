@@ -1,0 +1,38 @@
+{
+  "description": "Google Chrome browser using a Dispersive network in US-West.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "chrome.png",
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "US-West-Chrome",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+   {
+      "version": "1.18.x",
+      "image": "kasmweb/chrome:1.18.0-rolling-weekly",
+      "uncompressed_size_mb": 2934,
+      "available_tags": [
+        "develop",
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-rolling-daily"
+      ]
+    }
+  ],
+  "run_config": {
+      "hostname": "kasm"
+  },
+  "cores": 2,
+  "memory": 2768,
+  "exec_config": {
+    "first_launch": {
+      "user": "root",
+      "privileged": true,
+      "cmd": "bash -c 'ip route delete default && ip route add default via 172.18.0.10'"
+    }
+  }
+}
