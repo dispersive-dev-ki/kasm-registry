@@ -16,19 +16,15 @@
   "categories": [
     "Browser"
   ],
-  "friendly_name": "Chromium",
+  "friendly_name": "Chromium-KI",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
     {
-      "version": "1.17.x",
+      "version": "1.18.x",
       "image": "kasmweb/chromium:develop",
-      "uncompressed_size_mb": 2170,
-      "available_tags": [
-        "develop"
-      ]
+      "uncompressed_size_mb": 2170
     }
   ]
 }
