@@ -1,9 +1,10 @@
 {
   "description": "Rocky Linux 8 with Dispersive Stealh Networking.",
-  "docker_registry": "https://dispersive-docker-kasm.jfrog.io",
+  "docker_registry": "https://ghcr.io",
   "image_src": "RockyLinux-Dispersive.png",
   "run_config": {
-    "hostname": "kasm"
+    "hostname": "kasm",
+    "cap_add" : ["NET_ADMIN", "NET_RAW"]
   },
   "exec_config": {
     "go": {
@@ -25,7 +26,7 @@
   "compatibility": [
     {
       "version": "1.18.x",
-      "image": "dispersive-docker-kasm.jfrog.io/rocky8-dispersive-desktop:0.0.1",
+      "image": "ghcr.io/dispersive-dev-ki/kasm-docker-images/rocky8-dispersive-desktop:0.0.1",
       "uncompressed_size_mb": 16107
     }
   ]
