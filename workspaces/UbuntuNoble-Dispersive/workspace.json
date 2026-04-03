@@ -1,7 +1,7 @@
 {
-  "description": "Rocky Linux 8 Desktop with Dispersive Stealh Networking.",
+  "description": "Ubuntu Linux 24.04 (Noble) Desktop with Dispersive Stealh Networking.",
   "docker_registry": "https://ghcr.io",
-  "image_src": "RockyLinux-Dispersive.png",
+  "image_src": "UbuntuLogo-With-Dispersive.png",
   "run_config": {
     "hostname": "kasm",
     "cap_add" : ["NET_ADMIN", "NET_RAW"],
@@ -20,15 +20,15 @@
     "Network",
     "Security"
   ],
-  "friendly_name": "Rocky8-Dispersive",
+  "friendly_name": "Ubuntu-Noble-Dispersive",
   "architecture": [
     "amd64"
   ],
   "compatibility": [
     {
       "version": "1.18.x",
-      "image": "ghcr.io/dispersive-dev-ki/kasm-docker-images/rocky8-dispersive-desktop:0.0.1",
-      "uncompressed_size_mb": 16107
+      "image": "ghcr.io/dispersive-dev-ki/kasm-docker-images/ubuntu-noble-dispersive-desktop:0.0.1",
+      "uncompressed_size_mb": 16150
     }
   ]
 }
