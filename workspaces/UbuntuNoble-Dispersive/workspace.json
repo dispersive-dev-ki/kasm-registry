@@ -26,12 +26,12 @@
   ],
   "compatibility": [
     {
-      "version": "1.18.x",
+      "version": "1.19.x",
       "image": "ghcr.io/dispersive-dev-ki/kasm-docker-images/ubuntu-noble-dispersive-desktop:0.0.1",
       "uncompressed_size_mb": 16150
     },
     {
-      "version": "1.19.x",
+      "version": "1.18.x",
       "image": "ghcr.io/dispersive-dev-ki/kasm-docker-images/ubuntu-noble-dispersive-desktop:0.0.1",
       "uncompressed_size_mb": 16150
     }
